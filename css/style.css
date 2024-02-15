@@ -1,0 +1,184 @@
+header{
+    background:rgb(222, 199, 169);
+    background-size: cover;
+    width:100% ;
+    height: 100vh;
+    padding-top: 20px;
+}
+.bg-nav-inicio{
+    background: transparent!important;
+ }
+ .bg-nav-inicio ul li a.nav-link{
+    color: #252424;
+    font-size: 24px;
+    border-bottom: 2px solid transparent;
+}
+.bg-nav-inicio ul li a.nav-link:hover{
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    
+}
+#hero{
+    text-align: center;
+    margin-top: 200px;
+}
+#hero h2{
+    font-weight: 800;
+    font-size: 60px;
+    color:#4f2828;
+    margin-bottom: 0;
+
+}
+#hero h1{
+     font-size: 35px;
+     color:#111010;
+     margin-bottom: 100px;
+
+}
+#hero button{
+    background:transparent; 
+    box-shadow: 0 0 20px 5px #1f2525;
+    color: #666;
+    padding:  8px 20px;
+    font-size: 26px;
+    border-radius: 10px;
+    font-weight: 700;
+    border-color: transparent;
+    text-transform: uppercase;
+    
+    
+}
+/* ESTILOS DE LA SECCION ESTRENOS */
+
+#Estrenos{
+    background-color: #999;
+    padding: 120px 0;
+    text-align: center;
+}
+#Estrenos h2{
+    
+    font-weight: 800;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+#Estrenos p{
+    font-size: 35px;
+    color:black;
+}
+#series h1{
+    text-align: center;
+}
+#series div{
+    text-align: left;
+}
+/* ESTILOS DE LA SECCION APLICACIONES */
+
+#Aplicaciones{
+    width: 100%;
+    background-color:rgb(222, 199, 169);
+    background-size: cover;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+#Aplicaciones h2{
+    
+    color:#4f2828;
+    font-size: 40px;
+    margin-bottom: 100px;
+    font-weight: 800;
+}
+#Aplicaciones p{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#Aplicaciones .destino{
+   
+    margin-top: 80px;
+    position: relative;
+}
+
+#Aplicaciones .destino h3{
+    
+    color:black;
+    font-size: 28px;
+    margin: 20px 0 40px;
+    text-align: center;
+}
+
+
+/* ESTILOS DE LA SECCION INSCRIPCIÒN */
+
+#Subscribete ya{
+    width: 100%;
+    background: #838380;
+    text-align: center;
+    padding: 150px 0;
+}
+#Subscribete ya h1{
+    padding: 10px 15px;
+    font-weight: 800;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+#Subscribete ya h2{
+    padding: 10px 15px;
+    font-weight: 800;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+#Subscribete ya p{
+    color:rgb(0, 0, 0);
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+#Subscribete ya{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+#Subscribete ya form input{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+#Subscribete ya form select{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border: 1px solid #999;
+}
+#Subscribete Ahora form button{
+    padding: 20px 40px;
+    background: #668fa7;
+    color:#000000;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 1px solid #7fbaa1;
+}
+
+footer{
+    background-color:rgb(137, 132, 132);
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+}
+
+
+/* EFECTOS HOVER */
+
+#hero button:hover{
+    box-shadow: 4px 5px 5px 4px #09546d;
+}
+
+
